@@ -1,0 +1,32 @@
+nav
+	position: fixed
+	background: #090909
+	width: 100vw
+	z-index: 100 !important
+	ul
+		position: relative
+		float: right
+		padding: 5px
+	ul:last-child
+		margin-right: 10px
+		li
+			padding: 10px
+			float: left
+			a
+				text-decoration: none
+				color: #fff
+				position: relative
+				font-size: 20px
+			a:after 
+				position: absolute
+				left: 0%
+				top: 0%
+				content: ''
+				height: 100%
+				transition: all 0.5s linear
+				width: 100%
+				border-bottom: 3px solid #fff
+				transform: scaleX(0)
+			a:hover:after 
+				transform: scale(1)
+
