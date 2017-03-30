@@ -1,60 +1,19 @@
 @import '../partials/mobile'
 @import '../partials/menu'
+@import '../partials/header'
+@import '../partials/about'
+@import '../partials/contact'
+@import '../partials/skills'
 
+*
+	box-sizing: border-box
 section
 	width: 100vw
 	height: 100vh
 	position: relative
-	
-
-#header 
-	background: url('../img/bground01.jpg') no-repeat 100% 100% fixed
-	h1
-		position: absolute
-		top: 50%
-		left: 50%
-		transform: translate( -50%, -50%)
-		font-size: 30px
-		font-weight: 800
-
-.bounce
-	position: absolute
-	width: 50px
-	height: 50px
-	border-radius: 50%
-	border: 3px solid #000
-	bottom: 5%
-	background-color: #000
-	background: url('../img/arrow-down.png') no-repeat center center
-	margin: 0 auto
-	left: 50%
-	transform: translate(-50%,0)
-	animation: Bouncing 2s infinite ease-in-out
+footer
+	text-align: center
+	font-weight: 900
 
 
-@keyframes Bouncing
-	0%
-		bottom: 5%
-	50%
-		bottom: 8%
-	100%
-		bottom: 5%
 
-.triangle
-	width: 0
-	height: 0
-	position: absolute
-	bottom: -1px
-	border-right: 50vw solid transparent
-	border-top: 140px solid transparent
-	border-bottom: 1px solid transparent
-	border-left: 50vw solid #fff
-.triangle1
-	width: 0
-	height: 0
-	position: absolute
-	bottom: -1px
-	border-right: 50vw solid #fff
-	border-top: 140px solid transparent
-	border-bottom: 1px solid transparent
-	border-left: 50vw solid transparent
