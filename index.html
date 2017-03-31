@@ -11,16 +11,16 @@
 <body>
 	<nav>
 		<ul id="menu">
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#skills">Skills</a></li>
-			<li><a href="#work">My Work</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about" data-scroll>About Me</a></li>
+			<li><a href="#skills" data-scroll>Skills</a></li>
+			<li><a href="#work" data-scroll>My Work</a></li>
+			<li><a href="#contact" data-scroll>Contact</a></li>
 		</ul>
 	</nav>
 	
 	<section id="header">
 		<h1>Pavić Miloš | Frontend Developer</h1>
-		<a href="#about"><div class="bounce"></div></a>
+		<a href="#about" data-scroll><div class="bounce"></div></a>
 		<div class="triangle"></div>
 		<div class="triangle1"></div>
 	</section> <!-- /header -->
@@ -34,11 +34,8 @@
 			Organized, systematic, methodical and reliable. Constant desire towards further improvement of professional skills and abilities.<br>
 			Main area of interest is web development and implementation the newest frontend technologies.
 			</p>
-			</figure>
-			
-				
-		</div>
-		
+			</figure>		
+		</div> <!-- /.toCenter -->
 	</section> <!-- /about -->
 	<section id="skills">
 		<div class="progress">
@@ -68,12 +65,14 @@
 		<div class="progress">
 		  <span class="progress-val">AngularJS 62%</span>
 		  <span class="progress-bar"><span class="progress-in" style="width: 62%"></span></span>
-		</div> <!-- /progress -->
-		
-	</section> <!-- /skills -->
+		</div> <!-- /progress -->	
+	</section> <!-- /#skills -->
 	<section id="work">
-		
-	</section> <!-- /work -->
+		<a href="http://napredak037.com/"><img src="img/Napredak0371.png" alt="Napredak037"></a>		
+		<a href="https://pavic989.github.io/Tailors_Secret/"><img src="img/Tailors_secret1.png" alt="Tailors Secret"></a>		
+		<a href="https://pavic989.github.io/stovariste/"><img src="img/Stovariste1.png" alt=""></a>
+		<div class="triangle4"></div>		
+	</section> <!-- /#work -->
 	<section id="contact">
 		<div class="triangle2"></div>
 		<div class="triangle3"></div>
@@ -81,11 +80,15 @@
 		<h3>Interested in hiring me? Great! The best way to contact me is by email: <span class="email-text">pavicmilos989@gmail.com</span></h3>
 		<a href=""><img class="socialIcon" src="img/github1.png" alt="GitHubProfile"></a>
 		<a href=""><img class="socialIcon" src="img/linkedin1.png" alt="LinkedIn"></a>
-		<a href="#header"><div class="bounceUp"></div></a>
-	</section> <!-- /contact -->
+		<a href="#header" data-scroll><div class="bounceUp"></div></a>
+	</section> <!-- /#contact -->
 	<footer>
 		<code>Designed and developed by Miloš Pavić</code>
 	</footer>
-	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="js/jquery.scroller.min.js"></script>
+  	<script>
+		$('a[data-scroll]').scroller();
+	</script>
 </body>
 </html>

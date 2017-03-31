@@ -247,6 +247,24 @@ figure {
   -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.2); }
 
+#work {
+  text-align: center; }
+  #work img {
+    vertical-align: middle;
+    margin: 10px;
+    z-index: 1000 !important; }
+
+.triangle4 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -1px;
+  border-right: 50vw solid #000;
+  border-top: 181px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-left: 50vw solid transparent;
+  z-index: -1; }
+
 * {
   box-sizing: border-box; }
 
@@ -258,5 +276,8 @@ section {
 footer {
   text-align: center;
   font-weight: 900; }
+
+#scroller-top-button {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
