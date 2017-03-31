@@ -9,7 +9,10 @@
     display: block; }
 
   #about {
-    overflow: auto; } }
+    overflow: auto; }
+
+  .email-text {
+    font-size: 20px; } }
 nav {
   position: fixed;
   background: #090909;
