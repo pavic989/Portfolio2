@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 @media only screen and (max-width: 425px) {
   .me {
     width: 100%;
@@ -14,6 +15,14 @@ nav {
   background: #090909;
   width: 100vw;
   z-index: 100 !important; }
+  nav .logo {
+    float: left;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    letter-spacing: 4px; }
   nav ul {
     position: relative;
     float: right;
