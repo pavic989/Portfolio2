@@ -12,13 +12,13 @@
     overflow: auto; }
 
   .email-text {
-    font-size: 20px; }
+    font-size: 10px; }
 
   #work {
     overflow: auto; } }
 nav {
   position: fixed;
-  background: #090909;
+  background: rgba(0, 0, 0, 0.7);
   width: 100vw;
   z-index: 100 !important; }
   nav .logo {
