@@ -37,3 +37,12 @@ function start(){
 }
 
 start();
+
+$(window).scroll(function(){
+	var scrollTop = $('.toCenter').offset().top;
+	var contact = $('#contact').offset().top;
+	if($(this).scrollTop() > scrollTop || contact){
+		$('.toCenter').fadeIn(3000);
+		$('#contact').fadeIn(4000);
+	}
+})
